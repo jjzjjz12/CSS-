@@ -16,6 +16,42 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+.child1,.child3 {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.child1 .topl {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1 .topl .topl_l {
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+}
+.child1 .topl .topl_r {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.child1 .topl .topl_r .top {
+    width: 70px;
+    height: 60px;
+    background-color: rgb(168, 91, 232);
+}
+
+.child1 .topr {
+    align-self: center;
+    width: 70px;
+    height: 60px;
+    background-color: blueviolet;
+}
 
 .box {
     border: 1px solid red;
@@ -23,4 +59,23 @@ body {
 }
 .child2 {
     flex-grow: 1;
+}
+
+.child3 .botl {
+    width: 35px;
+    height: 35px;
+    background-color: blueviolet;
+    align-self: end;
+    border-radius: 50%;
+}
+.child3 .botr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child3 .botr .item{
+    background-color: blueviolet;
+    width: 100px;
+    height: 20px;
 }
