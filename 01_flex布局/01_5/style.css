@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+.content {
+    padding: 60px;
+    width: 800px;
+    height: 400px;
+    background-color: #f7cbf8;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.left {
+    flex-grow: 1;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.right {
+    border-radius: 10px;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.right .top{
+    flex-grow: 4;
+    border-radius: 10px;
+    display: flex;
+    gap: 40px;
+}
+.right .top .iteml{
+    flex-grow: 5;
+    height: 75%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+}
+.right .top .iteml .iteml-t{
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.right .top .iteml .iteml-t .item{
+    background-color: blueviolet;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.right .top .iteml .iteml-b{
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.right .top .itemr{
+    flex-grow: 2;
+    background-color: blueviolet;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.right .bot{
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+}
+.right .bot .iteml{
+    flex-grow: 1;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.right .bot .itemr{
+    flex-grow: 1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.right .bot .itemr .item1{
+    background-color: blueviolet;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.right .bot .itemr .item2{
+    background-color: blueviolet;
+    flex-grow: 2;
+    border-radius: 5px;
+}
