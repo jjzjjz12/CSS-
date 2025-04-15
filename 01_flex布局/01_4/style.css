@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-size: 2rem;
+}
+.content {
+    padding: 60px;
+    width: 800px;
+    height: 400px;
+    background-color: #f2d3f6;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    height: 70%;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+.top .topl{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.top .topl-t{
+    height: 25%;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.top .topl-b{
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.top .topl-b .topl-b-l{
+    flex-grow: 2;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.top .topl-b .topl-b-r{
+    flex-grow: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.top .topl-b .topl-b-r .item{
+    flex-grow: 1;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.top .topr{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.top .topr .topr-t{
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.top .topr .topr-b{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.top .topr .topr-b .item1{
+    width: 60%;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.top .topr .topr-b .item2{
+    flex-grow: 1;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.bot {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 100px;
+}
+.bot .botl{
+    width: 40%;
+    height: 25%;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.bot .botr{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bot .botr .item{
+    flex-grow: 1;
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
