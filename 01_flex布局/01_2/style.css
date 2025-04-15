@@ -59,6 +59,39 @@ body {
 }
 .child2 {
     flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.child2 .circle-box {
+    border: 1px solid green;
+    display: flex;
+    /* position: relative; */
+}
+.child2 .circle-box .circle1{
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    /* left: 100px; */
+}
+.child2 .circle-box .circle2{
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin-left: -60px;
+    border-radius: 50%;
+}
+.child2 .circle-box .circle3{
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-left: -60px;
+    border-radius: 50%;
+    /* right: 100px; */
 }
 
 .child3 .botl {
