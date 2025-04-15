@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.parent {
+    position: relative;
+    padding: 60px;
+    border: 2px solid brown;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.child4 {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+.child2 {
+    position: absolute;
+    bottom: 60px;
+}
+.child3 {
+    align-self: center;
+}
